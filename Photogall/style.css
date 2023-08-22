@@ -1,0 +1,28 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    max-width: 100%;
+  }
+  
+  .image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .image-container:hover .image-title {
+    opacity: 1;
+  }
+  .showcase {
+    background-color: #a67c5b; /* replace with your desired earthy tan color code */
+    padding: 100px 0; /* optional: add padding to the top and bottom of the section */
+  }
